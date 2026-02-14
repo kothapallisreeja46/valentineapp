@@ -22,9 +22,13 @@ body{
 
 }
 }
-h1{
-    margin-bottom: 10px;
-    font-size: 26px;
+#name{
+    margin-bottom: 15px;
+    font-size: 45px;
+}
+#proposal{
+    font-size: 28px;
+    white-space: 15px;
 }
 .button{
     margin-top: 20px;
