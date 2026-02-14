@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(to right,#ffdde1,#ee9ca7);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, sans-serif;
+}
+.card{
+    background: white;
+    /* height: 500px; */
+    max-width: 420px;
+    width: 90%;
+    padding: 40px;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0 10px 30px rgba(0 0 0 2);
+
+}
+}
+h1{
+    margin-bottom: 10px;
+    font-size: 26px;
+}
+.button{
+    margin-top: 20px;
+    position: relative;
+    height: 100px;
+}
+button{
+    padding: 12px 25px;
+    border: none;
+    border-radius: 25px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+}
+#yesbtn{
+    background-color: #ff4d6d;
+    color: white;
+}
+#nobtn{
+    position: absolute;
+    background-color: #ddd;
+    left: 50%;
+    transform: translate(80px);
+    
+}
+p{
+    font-size: 15px;
+    opacity: 0.8;
+    margin-bottom: 20px;
+}
